@@ -1,6 +1,3 @@
-// Install required packages
-// npm install react styled-components
-
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
