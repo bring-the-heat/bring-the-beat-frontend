@@ -1,0 +1,15 @@
+{
+  "short_name": "BTB",
+  "name": "Bring The Beat",
+  "icons": [
+    {
+      "src": "icons8-boom-box-16.png",
+      "sizes": "32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
