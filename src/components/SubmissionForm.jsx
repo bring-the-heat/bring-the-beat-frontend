@@ -23,7 +23,7 @@ const SubmissionForm = () => {
         const formElement = document.querySelector("form");
         const formData = new FormData(formElement);
         fetch(
-            "https://script.google.com/macros/s/AKfycbyJG0R2Nc7niWcBNdAPyKJ1FRD2Sz6K52fQYg_KCR6w6q08LLjGhZFcsLn00ntztWAxFg/exec",
+            "https://script.google.com/macros/s/AKfycbymTU7rMbkqNVzj2zbrfZs45yYW-MVrHCkCapKb86wdAxEKqc7vTBRly-wmwkKbEBUx_g/exec",
             { method: "POST", body: formData }
         )
             .then((res) => res.json())
@@ -40,7 +40,7 @@ const SubmissionForm = () => {
     return (
         <FormContainer>
             <h1>Enter your song for this week's round: </h1>
-            <Form className="form" onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbyJG0R2Nc7niWcBNdAPyKJ1FRD2Sz6K52fQYg_KCR6w6q08LLjGhZFcsLn00ntztWAxFg/exec">
+            <Form className="form" onSubmit={handleSubmit} method="POST" action="https://script.google.com/macros/s/AKfycbymTU7rMbkqNVzj2zbrfZs45yYW-MVrHCkCapKb86wdAxEKqc7vTBRly-wmwkKbEBUx_g/exec">
                 <Input
                     type="text"
                     name="firstName"
