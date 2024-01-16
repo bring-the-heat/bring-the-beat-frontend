@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/btb-form/static/css/main.367118f3.css",
-    "main.js": "/btb-form/static/js/main.15a1ef9d.js",
+    "main.js": "/btb-form/static/js/main.96276e70.js",
     "static/js/787.b5967db0.chunk.js": "/btb-form/static/js/787.b5967db0.chunk.js",
     "index.html": "/btb-form/index.html",
     "main.367118f3.css.map": "/btb-form/static/css/main.367118f3.css.map",
-    "main.15a1ef9d.js.map": "/btb-form/static/js/main.15a1ef9d.js.map",
+    "main.96276e70.js.map": "/btb-form/static/js/main.96276e70.js.map",
     "787.b5967db0.chunk.js.map": "/btb-form/static/js/787.b5967db0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.367118f3.css",
-    "static/js/main.15a1ef9d.js"
+    "static/js/main.96276e70.js"
   ]
 }
