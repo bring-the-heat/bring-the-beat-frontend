@@ -26,7 +26,7 @@ const SubmissionForm = () => {
             "https://script.google.com/macros/s/AKfycbyLTeO6JeXeOae7gv84BPKBAMSyabeRUoiD68Suq2LfxLFHoBlAEcupV9SqsfnGfO9jWw/exec",
             { method: "POST", body: formData }
         )
-            .then((res) => res.json())
+            .then((res) => res.text())
             .then((data) => {
                 console.log(data);
             })
